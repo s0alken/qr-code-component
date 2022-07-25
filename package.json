@@ -6,7 +6,8 @@
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server --port=8090",
-    "start": "npm-run-all --parallel devserver watch:sass"
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "build:css": "node-sass sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
